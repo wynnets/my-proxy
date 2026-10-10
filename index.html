@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>proxy — i proxy your username</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap">
+<style>
+:root{color-scheme:dark;--bg:#0c0c0d;--fg:#ececec;--mute:#8b8b90;--card:#141415;--line:#26262a;--hi:#ffffff;--lo:#6e6e74;
+--serif:"Source Serif 4",Georgia,"Times New Roman",serif;--sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}
+html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);min-height:100vh;overflow-x:hidden;position:relative;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:-20vmax auto auto 50%;width:70vmax;height:50vmax;transform:translateX(-50%);background:radial-gradient(closest-side,rgba(255,255,255,.07),transparent);z-index:0;pointer-events:none}
+main{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:12vh 24px 8vh}
+.tag{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);border:1px solid var(--line);border-radius:99px;padding:7px 14px;background:var(--card)}
+h1{font-family:var(--serif);font-size:clamp(72px,20vw,150px);line-height:.95;letter-spacing:-.04em;margin:28px 0 14px;font-weight:400;background:linear-gradient(180deg,var(--hi),var(--lo));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-family:var(--serif);font-size:clamp(22px,5vw,32px);color:var(--fg)}
+.lead{margin-top:18px;max-width:520px;font-size:17px;line-height:1.65;color:var(--mute)}
+.price{margin-top:56px;border:1px solid var(--line);background:var(--card);border-radius:24px;padding:32px;display:flex;align-items:center;gap:28px;flex-wrap:wrap}
+.price b{font-family:var(--serif);font-weight:400;font-size:clamp(64px,16vw,96px);line-height:1;letter-spacing:-.03em;background:linear-gradient(180deg,var(--hi),var(--lo));-webkit-background-clip:text;background-clip:text;color:transparent}
+.price p{flex:1;min-width:200px;font-size:16px;line-height:1.6;color:var(--mute)}
+.price p strong{color:var(--fg);font-weight:600}
+.steps{margin-top:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.step{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:22px}
+.step i{font-style:normal;font-size:12px;color:var(--mute);font-weight:500;letter-spacing:.1em}
+.step h3{font-family:var(--serif);font-weight:500;font-size:21px;margin:10px 0 6px}
+.step p{font-size:15px;line-height:1.55;color:var(--mute)}
+.end{margin-top:64px;font-family:var(--serif);font-size:clamp(32px,7vw,46px);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.end span{color:var(--lo)}
+.end a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--lo);padding-bottom:2px;transition:color .2s,border-color .2s}
+.end a:hover{color:var(--hi);border-color:var(--hi)}
+</style>
+</head>
+<body>
+<main>
+  <div class="tag">proxy your usernames</div>
+  <h1>proxy</h1>
+  <div class="sub">i proxy your username</div>
+  <p class="lead">You own a good username and want to sell it. I find the buyer and handle the deal. You get paid, I take only a small cut.</p>
+
+  <section class="price">
+    <b>10%</b>
+    <p><strong>That's my whole fee.</strong><br>10% of the username's price. No upfront payments, no hidden costs.</p>
+  </section>
+
+  <section class="steps">
+    <div class="step"><i>01</i><h3>You send it</h3><p>Message me the username you want to sell and your price.</p></div>
+    <div class="step"><i>02</i><h3>I proxy it</h3><p>I find a buyer and handle the deal from start to finish.</p></div>
+    <div class="step"><i>03</i><h3>You get paid</h3><p>You get 90% of the price, I take 10%.</p></div>
+  </section>
+
+  <div class="end"><span>→</span><a href="https://t.me/wynnet" target="_blank" rel="noopener">me</a></div>
+</main>
+</body>
+</html>
